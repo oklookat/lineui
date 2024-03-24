@@ -48,5 +48,7 @@
 		padding: 0;
 		/* custom */
 		cursor: pointer;
+		height: inherit;
+		width: inherit;
 	}
 </style>

@@ -17,13 +17,13 @@ body {
 :root {
   color-scheme: light dark;
   --color-text: black;
-  --color-hover: rgb(230, 230, 230);
+  --color-hover: rgb(220, 220, 220);
   --color-background: rgb(240, 240, 240);
   --color-border: rgb(150, 150, 150);
   --color-shadow: rgba(0, 0, 0, 0.4);
   @media (prefers-color-scheme: dark) {
     --color-text: white;
-    --color-hover: rgb(30, 30, 30);
+    --color-hover: rgb(40, 40, 40);
     --color-background: #1b1b1b;
     --color-border: rgb(150, 150, 150);
     --color-shadow: rgba(255, 255, 255, 0.4);

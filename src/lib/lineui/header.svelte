@@ -48,19 +48,18 @@
 	}
 
 	.desktop {
-		display: flex;
-		height: max-content;
 		@container (min-width: 30rem) {
 			display: flex;
 		}
+		height: max-content;
 	}
 
 	.mobile {
-		justify-content: center;
-		align-items: center;
 		@container (max-width: 30rem) {
 			display: flex;
 		}
+		justify-content: center;
+		align-items: center;
 		& > .hamburger {
 			height: 2rem;
 			width: 2rem;
