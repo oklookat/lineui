@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  /* default system fonts */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  color-scheme: light dark;
+  --color-text: black;
+  --color-hover: rgb(230, 230, 230);
+  --color-background: rgb(240, 240, 240);
+  --color-border: rgb(150, 150, 150);
+  --color-shadow: rgba(0, 0, 0, 0.4);
+  @media (prefers-color-scheme: dark) {
+    --color-text: white;
+    --color-hover: rgb(30, 30, 30);
+    --color-background: #1b1b1b;
+    --color-border: rgb(150, 150, 150);
+    --color-shadow: rgba(255, 255, 255, 0.4);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: var(--color-hover);
+  }
+}

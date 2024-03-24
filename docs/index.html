@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/2.DPQvyDsM.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.BIzSPepx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BO4pg4Gd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.D-scHMyn.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DRAmVI7k.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.qlUl4YDY.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.fQd87xiI.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.CCi8e27l.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div>  <div class="container svelte-1xfmxfc">Header (+ hamburger icon + navbar on mobile screen):
+	<header><div class="mobile svelte-hfli68"><div class="hamburger"><button class="base-button svelte-116tq4d"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: auto;" class="svelte-9hyzpm"><path d="M4 18L20 18" stroke-width="3" stroke-linecap="round"></path><path d="M4 12L20 12" stroke-width="3" stroke-linecap="round"></path><path d="M4 6L20 6" stroke-width="3" stroke-linecap="round"></path></svg> </button></div> <a href="/lineui" class="svelte-hfli68">lineui</a></div> <div class="desktop svelte-hfli68"><a href="/lineui" class="svelte-hfli68">lineui</a><a href="https://apple.com" class="svelte-hfli68">Apple</a><a href="https://google.com" class="svelte-hfli68">Google</a><a href="https://microsoft.com" class="svelte-hfli68">Microsoft</a></div>  </header> <main class="svelte-154yo8d"><h2 data-svelte-h="svelte-1ngi5ji">We in Container</h2> <div class="hamb svelte-154yo8d"><h3 data-svelte-h="svelte-1lytdmh">Hamburger icon (2rem):</h3> <div><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: auto;" class="svelte-9hyzpm"><path d="M4 18L20 18" stroke-width="3" stroke-linecap="round"></path><path d="M4 12L20 12" stroke-width="3" stroke-linecap="round"></path><path d="M4 6L20 6" stroke-width="3" stroke-linecap="round"></path></svg></div></div> <div><h3 data-svelte-h="svelte-1nga6px">Paginator (and Tooltip on hover page number)</h3> <div class="paginator svelte-zihbmk"> <div class="page"> <div class="tooltip svelte-wkx6vk"><input value="1" class="current" type="number" placeholder="Page" min="1" max="3">  </div></div> <span class="next"><button class="base-button svelte-116tq4d">➡️ </button></span> </div></div> <div><h3 data-svelte-h="svelte-1os03fw">Base button + Modal with content</h3> <button class="base-button svelte-116tq4d">CLICK HERE </button></div> <div><h3 data-svelte-h="svelte-1khl4p9">Base button + Modal bottom sheet</h3> <button class="base-button svelte-116tq4d">CLICK HERE </button></div></main> </div>   
+			
+			<script>
+				{
+					__sveltekit_vjw8c2 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/lineui"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.BIzSPepx.js"),
+						import("./_app/immutable/entry/app.DRAmVI7k.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
